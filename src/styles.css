@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.product-card {
+  display: flex;
+  width: 210px;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 1px 1px 10px #df79b6;
+  border-radius: 10px;
+}
+
+.product-img {
+  height: 200px;
+  width: 200px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.page-number {
+  height: 5px;
+  width: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  margin: 4px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px grey;
+  cursor: pointer;
+  text-align: center;
+}
+
+.pagination-container {
+  padding: 20px;
+}
+
+.selected-page-number {
+  background-color: powderblue;
+}
+
+.pagination-arrow {
+  cursor: pointer;
+}
